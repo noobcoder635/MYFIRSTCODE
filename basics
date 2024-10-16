@@ -1,0 +1,68 @@
+echo "# MYFIRSTCODE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/noobcoder635/MYFIRSTCODE.git
+git push -u origin main
+
+#include <stdio.h>
+	
+    int main(){		/*I dont know for what this comments are useful\n I dont know why?*/
+    printf ("My name is V.Sibbiraj\n\n");
+    printf ("\tMy ambition is to become a Game/an App Developer\"");
+    
+    int myphonenum;
+    myphonenum = 861001921 ;
+    printf ("\n\t%d", myphonenum);
+    
+    char myletter;
+    myletter = 'S';
+    printf ("\n\t%c", myletter);
+    
+    float mymark;
+    mymark = 76.558594;
+    printf ("\n\t%f", mymark);
+    
+    int x;
+    x = 5;
+    int y;
+    y = 10;
+    int sum = x+y;
+    printf ("\n\t%d", sum);
+    
+    int a = 3, b = 6, c = 9;
+    printf ("\n%d", a+b+c);
+    int minute = 60;
+    
+    printf ("\n%d", minute);
+    
+    double nums = 56.473974975748596;
+    nums = 56.473974975748596;
+    printf("\n%lf", nums);
+    
+    int mul = x*y;
+    printf("\n%d", mul);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
